@@ -1,0 +1,19 @@
+{
+  "name": "angularjs-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "1.7.x",
+    "angular-route": "1.7.x"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "http-server": "^0.11.1"
+  },
+  "scripts": {
+    "start": "http-server -p 8080 -c-1 -o http://localhost:8080/src/index.html"
+  }
+}
